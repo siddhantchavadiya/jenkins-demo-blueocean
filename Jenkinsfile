@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'ls'
-        slackSend channel: 'jenkins_alert', message: 'started build job '
+        slackSend channel: 'jenkins_alert', message: 'started build job successfully '
       }
     }
 
