@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''pwd
-date
-'''
+        sh 'ls'
       }
     }
 
